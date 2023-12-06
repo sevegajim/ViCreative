@@ -1,0 +1,178 @@
+#mainNav img{
+    width: 85px;
+}
+
+.imagenFundadora{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+}
+
+.imagenFundadora img{
+    text-align: center;
+    width: 175px;
+    height: 300px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+#portafolio img{
+    width: 175px;
+    height: 300px;
+}
+
+@media (min-width: 992px) {
+    .Vision{
+        background-color: #EE7D53;
+        height: 400px;
+        padding: 50px;
+    }
+    
+    .Mision{
+        background-color: #1A1A1A;
+        height: 400px;
+        padding: 50px;
+    }
+    
+    .NuestraMision{
+        margin-top: 40px;
+        color: white;
+        font-size: 50px;
+    }
+    .NuestraVision{
+        margin-top: 40px;
+        color: #1A1A1A;
+        font-size: 50px;
+    }
+    
+    .txtVision{
+        color: white;
+        font-size: 50px;
+        
+    }
+
+    .txtMision{
+        color: #EE7D53;
+        font-size: 50px;
+    }
+
+    .Vision h2{
+        margin-top: 10px;
+        color: #1A1A1A;
+        float: right;
+    }
+
+    .Mision h2{
+        margin-top: 10px;
+        color: white;
+        float: right;
+        text-align: center;
+    }
+}
+
+@media (max-width: 991px) {
+    .Vision{
+        background-color: #EE7D53;
+        height: 300px;
+        padding: 50px;
+    }
+    
+    .Mision{
+        background-color: #1A1A1A;
+        height: 300px;
+        padding: 50px;
+    }
+    
+    .NuestraMision{
+        margin-top: 20px;
+        color: white;
+        font-size: 55px;
+    }
+
+    .NuestraVision{
+        margin-top: 20px;
+        color: #1A1A1A;
+        font-size: 55px;
+    }
+    
+    .txtVision{
+        color: white;
+        font-size: 55px;
+        
+    }
+
+    .txtMision{
+        color: #EE7D53;
+        font-size: 55px;
+    }
+
+    .Vision h2{
+        margin-top: 10px;
+        color: #1A1A1A;
+        float: right;
+    }
+
+    .Mision h2{
+        margin-top: -10px;
+        color: white;
+        float: right;
+        text-align: center;
+    }
+
+    .imagenFundadora img{
+        text-align: center;
+        width: 175px;
+        height: 300px;
+        border-radius: 100%;
+        margin-bottom: 20px;
+        margin-left: 100%;
+        margin-top: 50px;
+    }
+}
+
+
+
+.valores{
+    background-color: white;
+    padding-right: 20%;
+    padding-left: 20%;
+}
+
+.valores h1{
+    color: #AAB088;
+}
+
+.productos button:hover{
+    background-color: #AA4120;
+    color: white;
+}
+
+.infoProducto{
+    background-color: #AAB088;
+    border-radius: 5px;
+}
+
+.productos button{
+    background-color: #1A1A1A;
+    border-bottom: 0px;
+    border-right: 0px;
+    color: white;
+}
+
+.infoProducto img{
+    max-width: 170px;
+    max-height: 220px;
+    margin-top: 27px;
+    min-height: 220px;
+}
+
+.infoProducto #descripcion{
+    text-align: center;
+    margin-top: 75px;
+}
+
+.infoProducto div{
+    text-align: center;
+}
+
